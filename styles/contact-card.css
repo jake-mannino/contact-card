@@ -1,0 +1,30 @@
+body {
+    background-image: url("../Images/woodland1280.jpg");
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+
+.card-body {
+    background-color: (242, 242, 242, 0.6);
+}
+
+.card {
+    background-color: rgba(242, 247, 230, 0.829);
+}
+
+svg path, svg polygon  {
+    fill: black;
+    
+}
+svg:hover path, svg:hover polygon {
+    background-color: (121,121,121, 1);
+   transition-delay: 200ms;
+    fill: grey;
+}   
+
+h2 {
+    font: Helvetica;
+    font-kerning: 30px;
+    font-weight: bold;
+}
