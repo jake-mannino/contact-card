@@ -28,11 +28,10 @@ h2 {
     font: Helvetica;
     font-kerning: normal;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .imgcontainer:hover {
     opacity: 0.8;
-    color-adjust: ;
 }
 
