@@ -6,11 +6,12 @@ body {
 
 
 .card-body {
-    background-color: (242, 242, 242, 0.6);
+    background-color: (242, 242, 242, 0.4);
 }
 
 .card {
-    background-color: rgba(242, 247, 230, 0.829);
+    background-color: rgba(242, 247, 230, 0.7);
+    border-radius: 15px 50px;
 }
 
 svg path, svg polygon  {
@@ -25,6 +26,13 @@ svg:hover path, svg:hover polygon {
 
 h2 {
     font: Helvetica;
-    font-kerning: 30px;
+    font-kerning: normal;
     font-weight: bold;
+    letter-spacing: 2px;
 }
+
+.imgcontainer:hover {
+    opacity: 0.8;
+    color-adjust: ;
+}
+
